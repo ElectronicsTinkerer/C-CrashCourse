@@ -33,7 +33,17 @@ int main()
     char *my_string = "Hello, world! Pointers are fun!\n";
 
     // This allows us to try out one more format specifier for printf:
-    printf("My string: %s My string first character: %c\n", my_string, *my_string);
+    printf("My string: %s My string's first character: %c\n", my_string, *my_string);
+
+    // Here is some basic pointer arithmetic where we add an offset to the
+    // address stored by the pointer before accessing the value
+    // at that address:
+    printf("My string's second character: %c\n", *(my_string + 1));
+
+    // Additionally, since strings are just arrays of type char, they
+    // can be indexed into just like arrays (we will see more of this
+    // in the arrays file)
+    printf("My string's second and fifth characters: %c, %c", my_string[1], my_string[4]);
 
     return EXIT_SUCCESS;
 }

@@ -91,4 +91,14 @@ Things I would like to add in the future:
 - Scoping
 - Custom header files
 - Preprocessor directives
-- Primitive variable limits and sizes
+- Primitive variable limits, size(of)s, overflows, casting
+- Bitwise operators
+- Add conditionals to `flow-control`
+- Pointer arithmetic and casting
+- Function pointers
+- Multidimensional arrays (double pointers)
+- Returning arrays
+- `enum`s
+- More in-depth strings
+- `const`, `static`
+- Nested structs, padding, unions, bitfields 

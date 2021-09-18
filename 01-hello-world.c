@@ -32,7 +32,7 @@ int main()
     printf("Hello, world!");
 
     // Here is another printf, but this time ending in a newline:
-    printf("It's my again!\n");
+    printf("It's me again!\n");
 
     return EXIT_SUCCESS;
 }
