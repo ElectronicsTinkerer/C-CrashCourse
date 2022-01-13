@@ -43,7 +43,7 @@ int main()
     // Additionally, since strings are just arrays of type char, they
     // can be indexed into just like arrays (we will see more of this
     // in the arrays file)
-    printf("My string's second and fifth characters: %c, %c", my_string[1], my_string[4]);
+    printf("My string's second and fifth characters: %c, %c\n", my_string[1], my_string[4]);
 
     return EXIT_SUCCESS;
 }

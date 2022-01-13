@@ -50,5 +50,23 @@ int main()
     else
         printf("Nor should you see this one!\n");
 
+    // Checking more than one condition
+    // To combine multiple comparison, use the || and && operators
+    // These OR and AND the comparison results, respectively.
+    if (my_int == 0 || my_int == 8)
+    {
+        printf("my_int == 0 or my_int == 8\n");
+    }
+
+    // Short-circuit execution:
+    // Multiple tests performed which are combined using the
+    // && operator are evaluated left-to-right. As soon as
+    // a test returns false, no further cases are tested.
+    // (Which prevents the "Floating point exception")
+    if (my_int != 0 && (8 / my_int) > 3)
+    {
+        printf("You will never see me.\n");
+    }
+
     return EXIT_SUCCESS;
 }
